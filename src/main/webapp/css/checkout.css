@@ -1,0 +1,44 @@
+/* =========================================================
+   FASHION HUB - Checkout Page Specific CSS
+   ========================================================= */
+
+.checkout-grid {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 32px;
+}
+
+.checkout-section-box {
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 28px;
+    margin-bottom: 24px;
+}
+
+.checkout-title {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.payment-method-card {
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: var(--transition-smooth);
+}
+
+.payment-method-card:hover,
+.payment-method-card.selected {
+    border-color: var(--gold-accent);
+    background-color: var(--champagne);
+}

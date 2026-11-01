@@ -1,0 +1,6 @@
+{
+  "name": "FASHION HUB",
+  "description": "Discover Your Style. Premium fashion e-commerce shopping platform for men and women.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

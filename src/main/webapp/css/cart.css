@@ -1,0 +1,53 @@
+/* =========================================================
+   FASHION HUB - Cart Page Specific CSS
+   ========================================================= */
+
+.cart-empty-state {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cart-empty-icon {
+    font-size: 3.5rem;
+    color: var(--gold-accent);
+    margin-bottom: 20px;
+}
+
+.qty-control {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--border-light);
+    border-radius: 2px;
+}
+
+.qty-btn {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.qty-input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    outline: none;
+}
+
+.coupon-section {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.coupon-input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid var(--border-light);
+    border-radius: 2px;
+    outline: none;
+    font-size: 0.85rem;
+}

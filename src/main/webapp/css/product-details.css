@@ -1,0 +1,48 @@
+/* =========================================================
+   FASHION HUB - Product Details Page Specific CSS
+   ========================================================= */
+
+.product-gallery {
+    display: flex;
+    gap: 16px;
+}
+
+.gallery-thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.thumb-image {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid var(--border-light);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.thumb-image.active,
+.thumb-image:hover {
+    border-color: var(--gold-accent);
+}
+
+.product-specs-tabs {
+    margin-top: 48px;
+    border-top: 1px solid var(--border-light);
+    padding-top: 32px;
+}
+
+.spec-row {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px dashed var(--border-light);
+    font-size: 0.9rem;
+}
+
+.spec-key {
+    width: 200px;
+    font-weight: 700;
+    color: var(--text-secondary);
+}

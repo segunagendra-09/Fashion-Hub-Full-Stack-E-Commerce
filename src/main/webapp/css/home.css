@@ -1,0 +1,31 @@
+/* =========================================================
+   FASHION HUB - Home Page Specific CSS
+   ========================================================= */
+
+.split-hero-container {
+    background-color: var(--bg-dark);
+}
+
+.trending-now-strip {
+    background-color: var(--champagne);
+    padding: 60px 0;
+}
+
+.trending-card-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.special-offer-card {
+    background: linear-gradient(135deg, #0b0b0b 0%, #1c1c1c 100%);
+    border-radius: 2px;
+    padding: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    border: 1px solid #222;
+}

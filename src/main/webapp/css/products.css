@@ -1,0 +1,74 @@
+/* =========================================================
+   FASHION HUB - Products Catalog Specific CSS
+   ========================================================= */
+
+.products-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.filters-sidebar {
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 24px;
+    height: fit-content;
+}
+
+.filter-group {
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 16px;
+}
+
+.filter-group:last-child {
+    border-bottom: none;
+}
+
+.filter-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.88rem;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.filter-option input[type="checkbox"],
+.filter-option input[type="radio"] {
+    accent-color: var(--primary-black);
+    width: 16px;
+    height: 16px;
+}
+
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 24px;
+}
+
+.sort-select {
+    padding: 8px 16px;
+    border: 1px solid var(--border-light);
+    border-radius: 2px;
+    font-size: 0.85rem;
+    background-color: var(--bg-white);
+    outline: none;
+}
